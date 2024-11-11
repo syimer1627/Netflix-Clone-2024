@@ -1,0 +1,36 @@
+
+
+.footer_outer_container{
+  
+    color: white;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   color: white;
+   cursor: pointer;
+   font-size: 14px;
+   
+}
+.main_outer_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+   
+}
+.footer_outer_container ul{
+    list-style: none;
+    gap: 20px;
+}
+.square{
+ border: 1px solid white;
+ text-align: center;
+}
+.footer_outer_container ul li{
+    padding: 10px;
+}
+.Icons {
+   display: flex;
+   justify-content: space-between;
+}
