@@ -1,4 +1,4 @@
-const API_KEY = "469b27687675280e9276cba250769a1e"
+const API_KEY = process.env.REACT_App_API_KEY;
 const requests = {
    
     feachBigBrothers: `/discover/tv?api_key=${API_KEY}&with_genres=10766`,
